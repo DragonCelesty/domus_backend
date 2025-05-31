@@ -1,9 +1,6 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { AuthModule } from './auth/auth.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { InventoryModule } from './inventory/inventory.module';
 import { InventoryService } from './inventory/inventory.service';
 import { MovementService } from './inventory/movement.service';
 import { InventoryController } from './inventory/inventory.controller';
